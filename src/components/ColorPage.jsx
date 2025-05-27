@@ -3,9 +3,11 @@ import '../styles/ColorPage.css';
 
 function ColorPage() {
 
+  const { id } = useParams();
+
   return (
-    <div className="color-page">
-    배경 페이지입니다 
+    <div className="color-page" style={{backgroundColor: id}}>
+    {id} 배경 페이지입니다 
     </div>
   );
 }
