@@ -3,6 +3,7 @@ import MainPage from './components/MainPage';
 import ColorPage from './components/ColorPage';
 
 function App() {
+
   return (
     <Router>
       <Routes>
